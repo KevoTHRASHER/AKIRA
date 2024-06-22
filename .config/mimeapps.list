@@ -1,0 +1,32 @@
+[Default Applications]
+text/html=userapp-kitty -e 'nvim'-N5K7A1.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+text/x-java=userapp-kitty -e 'nvim'-N5K7A1.desktop
+application/x-zerosize=userapp-kitty -e 'nvim'-N5K7A1.desktop
+text/plain=userapp-kitty -e 'nvim'-N5K7A1.desktop
+application/json=userapp-kitty -e 'nvim'-N5K7A1.desktop
+application/x-compressed-tar=xarchiver.desktop
+application/x-tar=xarchiver.desktop
+application/zip=xarchiver.desktop
+application/octet-stream=nvim.desktop
+
+[Added Associations]
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
+text/x-java=nvim.desktop;userapp-kitty -e 'nvim %F'-ONG2A1.desktop;userapp-nvim-3QQGB1.desktop;kitty.desktop;
+image/png=feh.desktop;google-chrome.desktop;
+text/plain=nvim.desktop;userapp-kitty -e 'nvim'-N5K7A1.desktop;userapp-kitty -e 'nvim %F'-ONG2A1.desktop;
+image/jpeg=google-chrome.desktop;feh.desktop;
+application/x-shellscript=userapp-kitty -e 'nvim'-N5K7A1.desktop;userapp-kitty -e 'nvim %F'-ONG2A1.desktop;nvim.desktop;
+text/x-csrc=userapp-kitty -e 'nvim'-N5K7A1.desktop;
+text/vbscript=nvim.desktop;
+application/sql=userapp-kitty -e 'nvim'-N5K7A1.desktop;userapp-kitty -e 'nvim %F'-ONG2A1.desktop;nvim.desktop;
+application/xml=userapp-kitty -e 'nvim'-N5K7A1.desktop;nvim.desktop;
+application/x-zerosize=userapp-kitty -e 'nvim'-N5K7A1.desktop;userapp-kitty -e 'nvim %F'-ONG2A1.desktop;nvim.desktop;
+application/json=userapp-kitty -e 'nvim'-N5K7A1.desktop;userapp-kitty -e 'nvim %F'-ONG2A1.desktop;nvim.desktop;
+text/html=google-chrome.desktop;userapp-kitty -e 'nvim'-N5K7A1.desktop;
+application/octet-stream=nvim.desktop;
+application/vnd.efi.img=gnome-disk-image-mounter.desktop;gnome-disk-image-writer.desktop;
+application/zip=org.gnome.FileRoller.desktop;

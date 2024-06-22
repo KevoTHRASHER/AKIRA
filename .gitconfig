@@ -1,0 +1,10 @@
+[user]
+	email = rosxhead@gmail.com
+	name = KevoTHRASHER
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
+    autocrlf = input
+[safe]
+    directory = *
